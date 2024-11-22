@@ -1,0 +1,82 @@
+﻿  main.cpp
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\include\Vector_Matrix.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(223,70): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(223,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(231,29): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,69): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,38): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,107): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,102): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(239,96): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,70): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,58): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,28): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,108): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,103): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(247,97): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,63): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,38): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,108): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,103): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(255,97): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,64): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,58): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,28): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,109): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,104): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(263,98): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(271,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(271,79): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,109): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,146): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,141): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(279,135): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,111): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,148): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,143): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(287,137): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,100): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,149): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,144): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(295,138): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,102): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,151): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,146): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(303,140): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,108): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,145): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,140): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(312,134): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,99): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,148): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,143): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(320,137): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(328,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(328,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(328,126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(328,121): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(328,115): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(336,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(336,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(336,138): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(336,124): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(401,14): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(401,10): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\OpenGL_Demo\main.cpp(402,13): warning C4305: 'argument': truncation from 'double' to 'float'
+  OpenGL_Demo.vcxproj -> D:\Users\Desktop\btl\RobotArm\RobotArm_VS2022_ASCII\OpenGL_Demo_VS2022\x64\Debug\OpenGL_Demo.exe
