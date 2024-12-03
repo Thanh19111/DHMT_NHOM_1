@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\Desktop\\btl\\RobotArm\\RobotArm_VS2022_ASCII\\OpenGL_Demo_VS2022\\",
+  "WorkspaceRootPath": "D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0C7279F-2E42-4D6F-9981-C2515E3405F2}|OpenGL_Demo\\OpenGL_Demo.vcxproj|D:\\Users\\Desktop\\btl\\RobotArm\\RobotArm_VS2022_ASCII\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E0C7279F-2E42-4D6F-9981-C2515E3405F2}|OpenGL_Demo\\OpenGL_Demo.vcxproj|D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E0C7279F-2E42-4D6F-9981-C2515E3405F2}|OpenGL_Demo\\OpenGL_Demo.vcxproj|solutionrelative:OpenGL_Demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\include\\vector_matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OpenGL_Demo\\include\\vector_matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector_matrix.h",
+              "DocumentMoniker": "D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\include\\vector_matrix.h",
+              "RelativeDocumentMoniker": "OpenGL_Demo\\include\\vector_matrix.h",
+              "ToolTip": "D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\include\\vector_matrix.h",
+              "RelativeToolTip": "OpenGL_Demo\\include\\vector_matrix.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T06:57:59.984Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Users\\Desktop\\btl\\RobotArm\\RobotArm_VS2022_ASCII\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp",
+              "DocumentMoniker": "D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp",
               "RelativeDocumentMoniker": "OpenGL_Demo\\main.cpp",
-              "ToolTip": "D:\\Users\\Desktop\\btl\\RobotArm\\RobotArm_VS2022_ASCII\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp",
+              "ToolTip": "D:\\Users\\Desktop\\New folder (6)\\DHMT_NHOM_1\\OpenGL_Demo_VS2022\\OpenGL_Demo\\main.cpp",
               "RelativeToolTip": "OpenGL_Demo\\main.cpp",
-              "ViewState": "AgIAAPYBAAAAAAAAAAAAAAECAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJkBAAAAAAAAAAAqwKQBAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T09:24:28.243Z",
               "EditorCaption": ""

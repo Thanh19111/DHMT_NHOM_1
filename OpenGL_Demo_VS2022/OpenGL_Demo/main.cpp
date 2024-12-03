@@ -199,32 +199,6 @@ void CloseFunc()
 }
 // ------------------------------------------
 
-void base()
-{
-	mat4 instance = identity_mat4();
-	instance = scale(vec3(0.25, 0.25, 0.25));
-	mat4 model_base = model_mat_cpp * instance;
-	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_base.m);
-	glDrawArrays(GL_TRIANGLES, 0, 36);
-}
-// ------------------------------------------
-void lower_arm()
-{
-	mat4 instance = identity_mat4();
-	instance = scale(vec3(0.125, 0.25, 0.125));
-	mat4 model_lower_arm = model_mat_cpp * instance;
-	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_lower_arm.m);
-	glDrawArrays(GL_TRIANGLES, 0, 36);
-}
-// ------------------------------------------
-void upper_arm()
-{
-	mat4 instance = identity_mat4();
-	instance = translate(vec3(0.0, 0.0, 0.0)) * scale(vec3(0.068, 0.25, 0.068));
-	mat4 model_upper_arm = model_mat_cpp * instance;
-	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_upper_arm.m);
-	glDrawArrays(GL_TRIANGLES, 0, 36);
-}
 void table0()
 {
 	mat4 instance = identity_mat4();
@@ -338,7 +312,7 @@ void chair8(float offset_x, float offset_y)
 	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_table0.m);
 	glDrawArrays(GL_TRIANGLES, 0, 36);
 }
-void a_chair(float offset_x, float offset_y)
+void a_chair1(float offset_x, float offset_y)
 {
 	//
 	chair0(offset_x, offset_y);
@@ -355,7 +329,75 @@ void a_chair(float offset_x, float offset_y)
 	chair8(offset_x, offset_y);
 	////////////////////////////////
 }
-// ---------------------------------------------------------------------------	
+void a_chair2(float offset_x, float offset_y)
+{
+	//
+	chair0(offset_x, offset_y);
+	chair1(offset_x, offset_y);
+	chair2(offset_x, offset_y);
+	chair3(offset_x, offset_y);
+	chair4(offset_x, offset_y);
+
+	//
+	chair5(offset_x - 0.2, offset_y);
+	chair6(offset_x - 0.2, offset_y);
+	chair7(offset_x - 0.2, offset_y);
+	//
+	chair8(offset_x - 0.2, offset_y);
+	////////////////////////////////
+}
+// --------------------------------------------------------------------------
+void chongchong0()
+{
+	mat4 instance = identity_mat4();
+	instance = scale(vec3(0.05,0.4,0.05));
+	mat4 model_chongchong = model_mat_cpp * instance;
+	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_chongchong.m);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+void chongchong1()
+{
+	mat4 instance = identity_mat4();
+	instance = translate(vec3(0, 0.4/2 - 0.05/2, 0.2/2 + 0.05/2)) *  scale(vec3(0.05, 0.05, 0.2));
+	mat4 model_chongchong = model_mat_cpp * instance;
+	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_chongchong.m);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+void chongchong2()
+{
+	mat4 instance = identity_mat4();
+	instance = translate(vec3(0, 0.4 / 2 - 0.05 / 2, 2 * (0.2 / 2 + 0.05 / 2))) * rotate_z(120) * translate(vec3(0,0.25/2,0))* scale(vec3(0.05, 0.25, 0.05));
+	mat4 model_chongchong = model_mat_cpp * instance;
+	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_chongchong.m);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+
+void chongchong3()
+{
+	mat4 instance = identity_mat4();
+	instance = translate(vec3(0, 0.4 / 2 - 0.05 / 2, 2 * (0.2 / 2 + 0.05 / 2))) * rotate_z(-120) * translate(vec3(0, 0.25 / 2, 0)) * scale(vec3(0.05, 0.25, 0.05));
+	mat4 model_chongchong = model_mat_cpp * instance;
+	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_chongchong.m);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+void chongchong4()
+{
+	mat4 instance = identity_mat4();
+	instance = translate(vec3(0, 0.4 / 2 - 0.05 / 2 , 2 * (0.2 / 2 + 0.05 / 2))) * rotate_z(0) * translate(vec3(0, 0.25 / 2, 0)) * scale(vec3(0.05, 0.25, 0.05));
+	mat4 model_chongchong = model_mat_cpp * instance;
+	glUniformMatrix4fv(model_mat_location, 1, GL_FALSE, model_chongchong.m);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+
+void chongchong_full()
+{
+	chongchong0();
+	chongchong1();
+	chongchong2();
+	chongchong3();
+	chongchong4();
+}
+
 void DisplayFunc(void)
 {
 	mat4 T = translate(vec3(-cam_pos[0], -cam_pos[1], -cam_pos[2]));
@@ -381,16 +423,7 @@ void DisplayFunc(void)
 	model_mat_location = glGetUniformLocation(ProgramId, "model_mat_shader");
 
 	model_mat_cpp = rotate_y(Theta[Base]);
-	/*
-	base();
 
-	Theta[LowerArm] = 30;
-	model_mat_cpp = model_mat_cpp * translate(vec3(0.0, 0.25, 0.0)) * rotate_z(Theta[LowerArm]);
-	lower_arm();
-
-	Theta[UpperArm] = 30;
-	model_mat_cpp = model_mat_cpp * translate(vec3(0.0, 0.25, 0.0)) * rotate_z(Theta[UpperArm]);
-	upper_arm();*/
 	table0();
 	table1();
 	table2();
@@ -398,8 +431,14 @@ void DisplayFunc(void)
 	table4();
 
 	
-	a_chair(0.1,-0.075);
-	a_chair(0, 0.2);
+	a_chair1(0.1,-0.075);
+	a_chair2(-1.1, -0.075);
+
+
+
+	model_mat_cpp = model_mat_cpp * translate(vec3( - 1.0, 0, 0));
+
+	chongchong_full();
 	glutSwapBuffers();
 }
 // ---------------------------------------------------------------------------	
