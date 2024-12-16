@@ -111,6 +111,15 @@ float alpha = 0;
 float beta = 0;
 float t = 0;
 float c = 0;
+
+float positionY = 5.0f; // Vị trí ban đầu
+float velocityY = 0.0f; // Vận tốc ban đầu
+float gravity = -9.8f;  // Gia tốc trọng trường
+float timeDelta = 0.016f; // Khoảng thời gian giữa các khung hình (~60 FPS)
+float groundY = -5.0f;   // Vị trí của mặt đất
+float bounceFactor = 0.7f; // Độ giảm vận tốc khi nảy
+
+
 void pillar()
 {
 	mat4 instance = identity_mat4();
@@ -372,7 +381,21 @@ void CloseFunc()
 	glDeleteVertexArrays(1, &VaoId);
 }
 // ------------------------------------------
+void updatePhysics() {
+	// Cập nhật vận tốc với gia tốc trọng trường
+	velocityY += gravity * timeDelta;
 
+	// Cập nhật vị trí theo vận tốc
+	positionY += velocityY * timeDelta;
+
+	// Xử lý va chạm với mặt đất
+	if (positionY <= groundY) {
+		positionY = groundY; 
+		velocityY = -velocityY * bounceFactor;
+	}
+
+	glutPostRedisplay(); // Yêu cầu vẽ lại cảnh
+}
 
 // ---------------------------------------------------------------------------	
 void DisplayFunc(void)
@@ -440,10 +463,31 @@ void ReshapeFunc(int Width, int Height)
 	CurrentHeight = Height;
 	glViewport(0, 0, CurrentWidth, CurrentHeight); //Bo sung day nua
 }
+bool bool1 = true;
+float step = 0.00005f;
 // ---------------------------------------------------------------------------	
 void IdleFunc(void)
 {
 	// thiết lập cờ gọi hiển thị lại
+	if (bool1)
+	{
+		if (z >= 360 || z <= -360)
+		{
+			z = 0;
+		}
+		z += 0.02;
+
+		t += step;
+		if (t >= 2.0f || t <= -2.0f) {
+			step = -step;
+		}
+		
+
+		
+		
+
+	}
+
 	glutPostRedisplay();
 }
 // ---------------------------------------------------------------------------
@@ -471,9 +515,28 @@ void KeyboardFunc(unsigned char key, int x, int y)
 	case 'T':
 		t -= 0.05; break;
 	case 'c':
-		c += 0.05; break;
+		if (c >= 0.4)
+		{
+			c += 0;
+		}
+		else
+		{
+			c += 0.025;
+		}
+		 break;
 	case 'C':
-		c -= 0.05; break;
+		if (c <= 0 + 0.025)
+		{
+			c += 0;
+		}
+		else
+		{
+			c -= 0.025;
+		}
+		 break;
+
+	case 'b':
+		bool1 = !bool1; break;
 	}
 }
 // ------------------------------------------
